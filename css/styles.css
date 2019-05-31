@@ -1,0 +1,132 @@
+#box-task_1 {
+    display: inline;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid violet;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    padding-bottom: 70px;
+}
+
+li::before {
+    box-direction: "#box-task_1";
+}
+
+/* В даному завданні вимагалося створити макерований список 
+і замість маркерів за допомогою псевдокласу :before зробити 
+фіолетові трикутники. Ьрикутник я зробав із блоку в css, 
+але вставити його перед контентом кожного li я не зміг */
+
+#box-task_2 {
+    width: 80vw;
+    height: 100vh;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#box-task_3 {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+h2 {
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+}
+
+.horizontal_line {
+    width: 0px;
+    height: 0px;
+    border-bottom: 1px solid grey;
+    margin: 0px 20px;
+}
+
+/* В даному випадку не можу відобразити горизонтальну лінію (horizontal_line) під параграфом h2 */
+
+#red_triange_1 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 50px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    display: inline-block;
+    margin: 5px;
+}
+
+#red_triange_2 {
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    display: inline-block;
+    margin: 5px;
+}
+
+#green_triange_1 {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-left: 50px solid green;
+    border-bottom: 30px solid transparent;
+    display: inline-block;
+    margin: 5px;
+}
+
+#green_triange_2 {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-right: 50px solid green;
+    border-bottom: 30px solid transparent;
+    display: inline-block;
+    margin: 5px;
+}
+
+#yellow_triange_1 {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid yellow;
+    border-left: 30px solid yellow;
+    display: inline-block;
+    margin: 5px;
+}
+
+#yellow_triange_2 {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid yellow;
+    border-right: 30px solid yellow;
+    display: inline-block;
+    margin: 5px;
+}
+
+#blue_triange_1 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid blue;
+    border-left: 30px solid blue;
+    display: inline-block;
+    margin: 5px;
+}
+
+#blue_triange_2 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 30px solid blue;
+    border-right: 30px solid blue;
+    display: inline-block;
+    margin: 5px;
+}
