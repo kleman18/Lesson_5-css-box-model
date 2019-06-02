@@ -1,9 +1,55 @@
 #landing_page {
-    width: 100%;
-    background-image: url("//img/agency.jpg");
-    border: 1px solid black;
+    width: 900px;
+    height: 500px;
+    background-image: url("https://apartmentinteriors.ru/wp-content/uploads/dizayn-studii-zvukozapisi-Red-Bull-02.jpg");
+    padding-top: 25px;
+    margin: auto;
+}
+
+h1, h4, p {
+    text-align: center;
+    color: white;
 }
 
 p {
-    color: red;
+    font-size: 12px;
+    margin: 0px;
+}
+
+h4 {
+    margin: 5px auto;
+}
+
+img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+#stuff {
+    width: 700px;
+    margin: 70px auto;
+}
+
+.workers {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 10px
+}
+
+#button {
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(to right, blue, darkviolet);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#text_on_button {
+    font-size: 16px;
+    text-align: center;
+    padding: auto;
 }
